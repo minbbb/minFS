@@ -1,0 +1,15 @@
+# Build output directories (sysmodule + dev NRO modes)
+/build/
+/build_nro/
+
+# Final build products at repo root (TARGET = minFS)
+/minFS.elf
+/minFS-sysmodule.elf
+/minFS-nro.elf
+/minFS.nsp
+/minFS.nso
+/minFS.npdm
+/minFS.nro
+/minFS.nacp
+/minFS.lst
+/minFS.map

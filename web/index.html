@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>minFS</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>minFS</h1>
+            <nav id="crumbs" aria-label="Breadcrumb">/</nav>
+        </header>
+        <main>
+            <table id="fs">
+                <thead>
+                    <tr>
+                        <th scope="col" class="thumb-cell">Preview</th>
+                        <th scope="col">Name</th>
+                        <th scope="col" class="size">Size</th>
+                        <th scope="col" class="act"></th>
+                    </tr>
+                </thead>
+                <tbody id="list"></tbody>
+            </table>
+            <div id="err" role="alert"></div>
+        </main>
+        <footer id="foot">Hehe, I'm a footer</footer>
+        <div id="viewer" role="dialog" aria-label="Media viewer">
+            <button type="button" class="v-close" aria-label="Close">
+                &times;
+            </button>
+            <button type="button" class="v-prev" aria-label="Previous">
+                &#10094;
+            </button>
+            <button type="button" class="v-next" aria-label="Next">
+                &#10095;
+            </button>
+            <img id="viewer-img" alt="" />
+            <video id="viewer-video" controls></video>
+            <div class="v-counter"></div>
+        </div>
+        <script type="module" src="./js/app.js"></script>
+    </body>
+</html>
