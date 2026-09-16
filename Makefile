@@ -38,6 +38,7 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
 TARGET		:=	$(notdir $(CURDIR))
+APP_AUTHOR	:=	minbbb
 BUILD_NRO	:=	build_nro
 ifeq ($(strip $(MAKECMDGOALS)),nro)
 BUILD		:=	$(BUILD_NRO)
