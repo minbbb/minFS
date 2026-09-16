@@ -37,7 +37,7 @@ Two builds are provided:
 
 ### Sysmodule (recommended)
 
-1. Copy the built `minFS.nsp` into the module's contents slot as **`main.nsp`**: `sdmc:/atmosphere/contents/420000000007E5AC/main.nsp`.
+1. Copy the built `minFS.nsp` into the module's contents slot as **`exefs.nsp`**: `sdmc:/atmosphere/contents/420000000007E5AC/exefs.nsp`.
 2. Copy `toolbox.json` from the repository root to `sdmc:/atmosphere/contents/420000000007E5AC/toolbox.json`.
 3. Optional — auto-start at boot: create an empty file `sdmc:/atmosphere/contents/420000000007E5AC/flags/boot2.flag`.
 4. Enable the module in Ultrahand → **Sysmodules** (or reboot with `boot2.flag` present).
